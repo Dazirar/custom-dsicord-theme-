@@ -350,6 +350,8 @@
   background-color: var(--darkplus-bg2);
 }
 
+ 
+/* MESSAGE WIDTH THING IS PADDING */
 .cozyMessage-1DWF9U .contents-2MsGLg > .markup-eYLPri:not(:empty, code) {
   background-color: var(--darkplus-bg2);
   display: inline-block;
@@ -366,9 +368,12 @@
   max-width: 100%;
 }
 
+/*
 .avatar-2e8lTP.clickable-31pE3P {
   filter: drop-shadow(0 0 5px);
   color: var(--darkplus-sec);
+*/
+
 }
 .avatar-2e8lTP:hover.clickable-31pE3P:hover {
   filter: drop-shadow(0 0 8px);
@@ -1475,3 +1480,19 @@ button[aria-label="Send a gift"] {
   background-color: var(--darkplus-bg);
   color: var(--darkplus-links);
 }
+
+:root {
+  --darkplus-bg: #212121;
+  --darkplus-bg2: #212121;
+  --darkplus-sec: #bb86fc;
+  --darkplus-links: #cdaef3;
+  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 00%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness:0%;
+  --watermark-filter-contrast: 75%;
+  --darkplus-emoji-picker-color: 210deg;
+}
+

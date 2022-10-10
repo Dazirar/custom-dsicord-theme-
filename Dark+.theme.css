@@ -395,15 +395,9 @@ max-height: 100vh;
 justify-content: unset;
 }
 .chatContent-3KubbW:not(:last-child) {
-margin-right: 65px;
+margin-right: 0px;
 }
-:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t {
-position: absolute;
-right: 0;
-width: unset;
-min-width: unset;
-height: 100%;
-}
+
 
 /*
 THIS MAKES IT SO MEMBER LIST EITHER POPS OUT OR DOESNT
@@ -421,11 +415,7 @@ height: 100%;
 transition: width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
 */
-:not(.ChannelDms-channelmembers-wrap) .membersWrap-3NUR2t:hover .members-3WRCEx,
-.ChannelDms-channelmembers-wrap:hover {
-width: 240px;
-transition: width 0.5s 0s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
-}
+
 .ChannelDms-channelmembers-wrap :is(.membersWrap-3NUR2t, .members-3WRCEx, .privateChannels-oVe7HL),
 html #MemberCount {
 width: 100%;

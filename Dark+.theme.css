@@ -10,21 +10,6 @@
   * @invite amongus
 */
 
-:root {
-  --darkplus-bg: #212121;
-  --darkplus-bg2: #212121;
-  --darkplus-sec: #bb86fc;
-  --darkplus-links: #cdaef3;
-  --darkplus-home-icon: url(https://cdn.discordapp.com/attachments/468141324906921984/852117175212179466/discord-avatar-512-YV0PV.png);
-  --watermark-filter-invert: 0%;
-  --watermark-filter-sepia: 50%;
-  --watermark-filter-saturate: 00%;
-  --watermark-filter-hue-rotate: 210deg;
-  --watermark-filter-brightness:0%;
-  --watermark-filter-contrast: 75%;
-  --darkplus-emoji-picker-color: 210deg;
-}
-
 .bg-1QIAus,
 .container-2RRFHK {
   background-color: var(--darkplus-bg);
@@ -419,10 +404,15 @@ width: unset;
 min-width: unset;
 height: 100%;
 }
+
+/*
+THIS MAKES IT SO MEMBER LIST EITHER POPS OUT OR DOESNT
 :not(.ChannelDms-channelmembers-wrap) .members-3WRCEx {
 width: 65px;
 transition: width 0.5s ease, box-shadow 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
+*/
+
 .ChannelDms-channelmembers-wrap {
 width: 65px;
 position: absolute;
